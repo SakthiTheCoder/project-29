@@ -3,7 +3,7 @@ class Link {
     var lastlink = bodyA.body.bodies.length - 2;
     this.link = Constraint.create({
       bodyA: bodyA.body.bodies[lastlink],
-      pointA: { x: 0, y: 0 },
+      pointA: { x: -20, y: 0 },
       bodyB: bodyB.body,
       pointB: { x: 0, y: 0 },
       length: 10,
